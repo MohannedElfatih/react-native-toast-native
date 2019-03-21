@@ -1,4 +1,3 @@
-
 Pod::Spec.new do |s|
   s.name         = "RNToastNative"
   s.version      = "1.0.0"
@@ -6,13 +5,13 @@ Pod::Spec.new do |s|
   s.description  = <<-DESC
                   RNToastNative
                    DESC
-  s.homepage     = ""
+  s.homepage     = "https://github.com/onemolegames/react-native-toast-native"
   s.license      = "MIT"
   # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
   s.author             = { "author" => "author@domain.cn" }
   s.platform     = :ios, "7.0"
   s.source       = { :git => "https://github.com/author/RNToastNative.git", :tag => "master" }
-  s.source_files  = "RNToastNative/**/*.{h,m}"
+  s.source_files  = "*.{h,m}"
   s.requires_arc = true
 
 
@@ -20,5 +19,3 @@ Pod::Spec.new do |s|
   #s.dependency "others"
 
 end
-
-  
